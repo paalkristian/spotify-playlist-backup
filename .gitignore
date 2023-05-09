@@ -19,3 +19,12 @@
 
 # Go workspace file
 go.work
+
+# Avoid checking inn secrets
+.env
+
+# Do not check in token
+token_cache.json
+
+# Do not check inn backup files
+backups/*
